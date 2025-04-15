@@ -1,0 +1,120 @@
+/* src/Components/BuyerDashboard.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .buyer-dashboard {
+    background-color: #f6f7f9;
+    min-height: 100vh;
+    padding-bottom: 60px;
+  }
+  
+  /* Nav Bar */
+  .top-nav {
+    background-color: #111;
+    color: white;
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 1.4rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  /* Banner */
+  .welcome-banner {
+    background: linear-gradient(to right, #505050, #aaa);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .banner-content h2 {
+    margin: 0 0 8px;
+  }
+  
+  .banner-btn {
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  /* Search */
+  .search-wrapper {
+    margin: 20px 40px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Section Header */
+  .section-title {
+    margin: 40px;
+    font-size: 1.6rem;
+    color: #333;
+  }
+  
+  /* Cards */
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 40px;
+  }
+  
+  .game-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 240px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .game-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .add-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #007b9e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #005f7f;
+  }
+  

@@ -1,0 +1,53 @@
+.cart-page {
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .cart-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart-thumbnail {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  
+  .cart-info {
+    flex: 1;
+  }
+  
+  .remove-btn {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .total-section {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .confirm-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #007b9e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
